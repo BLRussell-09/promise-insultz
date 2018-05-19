@@ -7,7 +7,7 @@ const insultMe = () =>
   {
     ajax.nounJson().then((nouns) =>
     {
-      $('#insultBay').html(domBuilder(nouns, descripts));
+      $('#insulter').html(domBuilder(nouns, descripts));
     });
   });
   return descData;
